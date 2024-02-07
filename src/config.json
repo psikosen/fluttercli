@@ -1,0 +1,42 @@
+{
+  "titles": ["exec", "health checks", "cleanup", "config", "ios", "android", "exit"],
+  "index": 0,
+  "items": [
+    [
+      {"run": "flutter run"},
+      {"get": "flutter pub get"}
+    ],
+    [
+      {"clean": "flutter clean"},
+      {"fbuild": "flutter build"},
+      {"doctor": "flutter doctor"},
+      {"profile": "flutter run --profile"}
+    ],
+    [
+      {"cleancache": "flutter clean cache"},
+      {"repair": "flutter repair"},
+      {"rmcache": "flutter remove cache"}
+    ],
+    [
+      {"devices": "flutter devices"},
+      {"logs": "flutter logs"},
+      {"showems": "flutter emulators"},
+      {"devtools": "flutter pub global run devtools\n"}
+    ],
+    [
+      {"install": "flutter pod install"},
+      {"podclean": "flutter pod clean up"},
+      {"deintegrate": "flutter deintegrate"},
+      {"repoupdt": "flutter repo update"}
+    ],
+    [
+      {"buildappbundle": "flutter build appbundle"},
+      {"buildapk": "flutter build apk"},
+      {"gradleclean": "gradlew clean"}
+    ],
+    [
+      {"exit" :  "exit"}
+
+    ]
+  ]
+}
