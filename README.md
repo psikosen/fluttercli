@@ -25,26 +25,31 @@ cargo run --release
 
 The CLI tool organizes Flutter commands into different tabs based on their categories:
 
-Tab 1: Development
-  flutter run: Run the Flutter application.
-  flutter pub get: Get dependencies for the Flutter project.
-  flutter channel: Switch Flutter channels.
-Tab 2: Maintenance
-  flutter clean: Delete the build/ directory.
-  flutter build: Build a Flutter application for deployment.
-  flutter doctor: Check the status of Flutter installation and dependencies.
-Tab 3: Cache Management
-  flutter clean cache: Delete all cached artifacts.
-  flutter repair: Repair the Flutter SDK installation.
-  flutter remove cache: Remove specified artifacts from the cache.
-Tab 4: Device Management
-  flutter devices: List all connected devices.
-  flutter logs: Show logs for running Flutter apps.
-  flutter emulators: List all available emulators.
-Tab 5: Miscellaneous
-  flutter install: Install a Flutter app on an attached device.
-  flutter pod clean up: Clean up CocoaPods installation in iOS projects.
-  flutter deintegrate: Remove Flutter-specific Xcode configuration.
-  flutter repo update: Update Flutter package repositories.
-Tab 6: Exit
-  exit: Exit the CLI tool.
+### Tab 1: Development
+- `flutter run`: Run the Flutter application.
+- `flutter pub get`: Get dependencies for the Flutter project.
+- `flutter channel`: Switch Flutter channels.
+
+### Tab 2: Maintenance
+- `flutter clean`: Delete the build/ directory.
+- `flutter build`: Build a Flutter application for deployment.
+- `flutter doctor`: Check the status of Flutter installation and dependencies.
+
+### Tab 3: Cache Management
+- `flutter clean cache`: Delete all cached artifacts.
+- `flutter repair`: Repair the Flutter SDK installation.
+- `flutter remove cache`: Remove specified artifacts from the cache.
+
+### Tab 4: Device Management
+- `flutter devices`: List all connected devices.
+- `flutter logs`: Show logs for running Flutter apps.
+- `flutter emulators`: List all available emulators.
+
+### Tab 5: Miscellaneous
+- `flutter install`: Install a Flutter app on an attached device.
+- `flutter pod clean up`: Clean up CocoaPods installation in iOS projects.
+- `flutter deintegrate`: Remove Flutter-specific Xcode configuration.
+- `flutter repo update`: Update Flutter package repositories.
+
+### Tab 6: Exit
+- `exit`: Exit the CLI tool.
